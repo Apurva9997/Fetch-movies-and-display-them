@@ -19,6 +19,22 @@ class App extends React.Component{
             <div>
                 <table>
                     <thead>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                        <th><input type="text" /></th>
+                    </thead>
+                    <tbody>
+                    <tr>
                     <th>Serial number</th>
                     <th>Movie title</th>
                     <th>Director name</th>
@@ -32,8 +48,7 @@ class App extends React.Component{
                     <th>Title Year</th>
                     <th>Plot Keywords</th>
                     <th>Movie imdb link</th>
-                    </thead>
-                    <tbody>
+                    </tr>
                 {
                     this.state.data.map((line,index)=>{
                         return(
